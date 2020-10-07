@@ -1,0 +1,185 @@
+/*about Us*/
+#about-us {
+  background-color: whitesmoke;
+  position: relative;
+}
+#about_us_Header {
+  font-weight: bold;
+  font-family: "Playfair Display";
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  padding-left: 0px;
+  background: url("/image/AboutUs/1.jpg");
+  height: 120px;
+}
+
+#about_us_Header:hover {
+  transform: scale(1.1);
+}
+.aboutus_hover_p:hover {
+  cursor: pointer;
+}
+/*
+#aboutus_p1 {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  text-align: justify;
+  box-shadow: 4px 4px 4px 4px rgb(135, 148, 135);
+}
+
+#aboutus_p2 {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  text-align: justify;
+  box-shadow: 4px 4px 4px 4px rgb(135, 148, 135);
+}
+#aboutus_p3 {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  text-align: justify;
+  box-shadow: 4px 4px 4px 4px rgb(135, 148, 135);
+}
+#aboutusImage1 > {
+  height: 200px;
+  position: absolute;
+}
+#aboutus_text2 {
+  position: relative;
+}
+#aboutus_text2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+#aboutus_vision,
+#aboutus_mission,
+#aboutus_values {
+  box-shadow: 4px 4px 4px 4px rgb(135, 148, 135);
+}
+
+#aboutus_vision p {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 5px black;
+
+  color: #211796;
+  box-shadow: 4px 4px 4px 4px rgb(135, 148, 135);
+}
+#aboutus_vision blockquote {
+  list-style-type: none;
+  font-style: italic;
+}
+
+#aboutus_mission p {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 5px black;
+
+  color: #211796;
+  box-shadow: 4px 4px 4px 4px rgb(135, 148, 135);
+}
+#aboutus_mission blockquote {
+  list-style-type: none;
+  font-style: italic;
+}
+#aboutus_values p {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+
+  border-radius: 5px black;
+
+  color: #211796;
+  box-shadow: 4px 4px 4px 4px rgb(135, 148, 135);
+}
+#aboutus_values ul {
+  list-style-type: none;
+  font-style: italic;
+}
+#aboutus_values ul li {
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  margin-right: 40px;
+  padding-left: 0px;
+  text-shadow: whitesmoke;
+}
+*/
+#AboutUs_Part1 {
+  height: 300px;
+}
+#AboutUs_Part1 p {
+  display: block;
+  padding: 10% 5% 10% 5%;
+}
+#AboutUs_Part1 img {
+  height: 300px;
+  width: auto;
+}
+
+#about_us_Mission_vison {
+  font-weight: bold;
+  font-family: "Playfair Display";
+  text-align: center;
+  font-size: 60px;
+  color: #e84118;
+  padding-left: 0px;
+  height: 100px;
+  width: auto;
+}
+#AboutUs_Part2 p {
+  height: 100px;
+  width: auto;
+  display: block;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#about_us_Core {
+  font-weight: bold;
+  font-family: "Playfair Display";
+  text-align: center;
+  font-size: 60px;
+  color: #273c75;
+  height: 100px;
+  width: auto;
+}
+#about_us_core_text {
+  text-align: center;
+  width: auto;
+  padding-bottom: 10%;
+}
+#AboutUs_Part3 {
+  height: 300px;
+}

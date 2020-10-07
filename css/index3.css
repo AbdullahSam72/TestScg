@@ -1,0 +1,178 @@
+/*Main Content 3*/
+#IndexPart3 {
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+  height: 360px;
+}
+#slider_service {
+  height: 360px;
+}
+#myServices {
+  height: 360px;
+  padding: 10px 10px 10px 10px;
+}
+.myServicesEffect {
+  height: 340px;
+  padding: 10px 10px 10px 10px;
+}
+
+.usr_indexPart3,
+.glfront,
+.glfront {
+  background-color: #ffffff;
+  transition: transform 0.2s;
+  margin: 0 auto;
+  position: relative;
+}
+/*
+.usr_indexPart3 {
+  padding: 10px 10px 10px;
+  height: 300px;
+}*/
+.section31_common {
+  position: relative;
+  box-shadow: 10px 10px 10px 10px rgb(218, 212, 212);
+  height: 100%;
+  width: 100%;
+  border-radius: 15px solid grey;
+}
+.usr_indexPart3 h5 {
+  border-bottom: 1px solid black;
+  background-color: rgb(33, 187, 110);
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  font-family: "Playfair Display";
+  font-style: italic;
+  text-align: center;
+  top: 5px;
+
+  width: auto;
+  box-shadow: 4px 4px 4px 4px rgb(135, 148, 135);
+}
+.usr_indexPart3 p {
+  color: #5aa973;
+  position: relative;
+  font-family: "Playfair Display";
+  top: 25px;
+  left: 15px;
+  width: auto;
+}
+
+.usr_indexPart3 img {
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+  color: black;
+  position: relative;
+
+  height: 200px;
+  width: 100%;
+}
+
+.usr_indexPart3:hover {
+  background-color: #f2f2f2;
+  color: black;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  z-index: 301;
+  background: url("/image/Section2/Testimonial/S6.jpg");
+  cursor: pointer;
+}
+.usr_indexPart3:hover #img11 {
+  background: url("/image/common/az.png");
+}
+
+.usr_indexPart3:hover .section31_common,
+.usr_indexPart3.hover .section31_common {
+  transform: rotateY(180deg);
+}
+.section31_common {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  height: 300px;
+  position: relative;
+}
+.glfront,
+.glback {
+  backface-visibility: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.glfront {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+.glback {
+  z-index: 3;
+  transform: rotateY(180deg);
+}
+#inp3_img1 img {
+  background: url("/image/Section2/estidama_Final.jpg");
+}
+
+#leftArrow {
+  left: 0;
+}
+#myServicesLeft {
+  width: 5%;
+  background-color: teal;
+}
+#myServicesRight {
+  width: 5%;
+  background-color: teal;
+}
+#ServiceHeader,
+#ServiceHeader h5 {
+  font-family: "Playfair Display";
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: black;
+  width: 100%;
+}
+#ServiceHeader {
+  height: 20px;
+}
+
+@media (max-width: 575.98px) {
+  #IndexPart3 {
+    height: auto;
+  }
+}
+/*
+  #section_31 img:hover {
+    background: src("/onimage/Secti2/estidama_Final.jpg");
+  }*/
+/*.usr_indexPart3 {
+    overflow: hidden;
+  
+    animation: marquee 20s linear infinite;
+  }
+  @keyframes marquee {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -75%;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    #IndexPart3 {
+      height: auto;
+    }
+  }*/
+
+/*End Main Content 3*/

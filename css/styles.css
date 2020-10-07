@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto:300,400,500,700");
+body {
+  font-size: 16px;
+  background-color: whitesmoke;
+  font-family: "Oxygen", sans-serif;
+  background: url("../image/BgImage/image7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+
+  margin-bottom: 0px;
+}
+
+/** HEADER **/
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+#TopHeader {
+  background-color: white;
+  height: 140px;
+  color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#TopHeader > div {
+  margin-left: 0px;
+}
+#HeaderBottom {
+  background-color: #5aa973;
+  opacity: 0.5;
+  height: 70px;
+  color: #fff;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+
+li:hover {
+  background-color: white;
+}
+#navContainer {
+  background-color: black;
+}
+#logo-img {
+  /*background: url("/image/companyLogo/pdo-logo.jpg") no-repeat;
+  width: 400px;*/
+  height: 60px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.nav-item {
+  font-weight: bold;
+  color: white;
+}
+#myNavBarContainer {
+  background-color: green;
+  color: white;
+  opacity: 0.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+#glSocialMediaTopP {
+  position: relative;
+  margin-bottom: 30px;
+}
+#glSocialMediaTop {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 30px;
+  margin-bottom: -20px;
+}
+#glSocialMediaTop li {
+  float: right;
+  padding: 5px;
+}
+
+/* END HEADER */
+
+/*Common */
+header,
+#main-content1,
+#main-content2,
+#main-content3,
+#IndexFooter {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 15px;
+}
+#main-content1 {
+  background-color: whitesmoke;
+}
+
+@media (max-width: 575.98px) {
+  header,
+  #main-content1,
+  #main-content2,
+  #main-content3,
+  #IndexFooter {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+/*End of Common */
+
+/*footer*/
+#IndexFooter {
+  position: relative;
+}
+footer {
+  margin-bottom: 100px;
+  height: 240px;
+  background-color: white;
+  position: relative;
+}
+
+#footer1,
+#footer2,
+#footer3 {
+  position: relative;
+}
+footer h5 {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: bold;
+  position: relative;
+  font-size: 14px;
+  padding-top: 10px;
+  left: 30px;
+  border-bottom: 2px solid black;
+  width: 85%;
+}
+#footer-image {
+  position: relative;
+  left: 30px;
+}
+
+#glSocialMediaFooter {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  /* top: 50px;*/
+  left: 30px;
+}
+#glSocialMediaFooter li {
+  float: left;
+  padding: 5px;
+}
+
+/*Social Media*/
+#socialMedia {
+  float: right;
+  position: absolute;
+  right: 15%;
+  top: 10%;
+}
+#footer1 .contact_info_home .info_item_home h6 {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  padding: 0px;
+  color: black;
+}
+#footer1 .contact_info_home .info_item_home p {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  padding: 0px;
+  color: black;
+}
+#main-Image {
+  position: absolute;
+  float: right;
+
+  margin-right: 0%;
+  right: 0px;
+  margin-top: 15px;
+}
+#main-Image img {
+  height: 600px;
+  width: 285px;
+  z-index: -1;
+}
+.whats-app {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 15px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+@media (max-width: 575.98px) {
+  #IndexPart2,
+  #IndexPart3,
+  footer {
+    height: auto;
+  }
+}
+/*End*/
+
+/*end of Footer*/

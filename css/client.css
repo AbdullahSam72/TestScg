@@ -1,0 +1,73 @@
+.testimonials-area {
+  position: relative;
+}
+.testimonials-area .quote-img {
+  margin-bottom: -60px;
+  position: relative;
+  z-index: 2;
+}
+.testimonials-area .owl-thumbs {
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+}
+.testimonials-area .owl-thumb-item {
+  margin-right: 20px;
+  position: relative;
+}
+.testimonials-area .owl-thumb-item:last-child {
+  margin-right: 0;
+}
+.testimonials-area .owl-thumb-item.active .overlay-grad {
+  background: #4d8eff;
+  opacity: 0.8;
+}
+.testimonials-area .owl-thumb-item .overlay-grad {
+  transition: all 300ms linear 0s;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.testimonials-area .owl-thumb-item .overlay-grad:hover {
+  background: #4d8eff;
+  opacity: 0.8;
+}
+.testimonials-area.color-bg {
+  background: #f1f9ff;
+}
+.testimonials-area .owl-carousel .owl-item img {
+  width: auto;
+  margin: auto;
+}
+
+.testi-slider {
+  margin: auto;
+  background: #ffffff;
+}
+.testi-slider .testi-item {
+  text-align: center;
+}
+
+.testi-item {
+  margin-bottom: 40px;
+}
+.testi-item h4 {
+  font-size: 21px;
+  font-weight: 700;
+  margin-top: 65px;
+  margin-bottom: 10px;
+}
+.testi-item .list {
+  margin-bottom: 20px;
+}
+.testi-item .list li {
+  display: inline-block;
+}
+.testi-item .list li a {
+  color: #ffc000;
+  font-size: 14px;
+}
+.testi-item p {
+  max-width: 605px;
+  margin: auto;
+  font-style: italic;
+}
